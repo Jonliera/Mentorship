@@ -1,3 +1,5 @@
+Functions (hoisting)
+
 function plantNeedsWater(day){
 }
 
