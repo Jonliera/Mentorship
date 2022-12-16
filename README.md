@@ -31,3 +31,48 @@ The binding is to the return (response) value of the expression. That’s the ke
 
 This tells us that hoisting occurs within functions, not just at the global level. Whatever isn’t hoisted is treated as a value on the second pass. Recall that expressions are values, and utilize that going forward.
 
+
+Functions : 
+
+1)Fucntion Declarations :
+function greet(){
+console.log("hello jon");
+}
+
+2)Function Expressions :
+const calculatedArea = function(width,height){
+const area = width * height;
+return area;
+};
+
+3)Arrow Functions 
+const rectagleArea = (width,height) => {
+let area = width * area ;
+return area;
+}
+
+3.1)Concise Body Arrow Functions 
+zero parameters
+const function = () => {};
+
+3.2)one parameter
+const fucntionName = paramOne =>{};
+
+3.3)two or more parameters
+const functionName = (paramOne, paramTwo) =>{};
+
+3.3.1)Single line block (no need of curly braces):
+const sumNunmbers = number => number 1 + number2 ;
+
+3.3.2)Multin - Lines Block
+const sumNubers = number =>{
+const sum = number + number;
+return sum;
+};
+
+
+Arrays 
+
+Array Literals 
+const myArray = ['dog','cat','sport']
+
