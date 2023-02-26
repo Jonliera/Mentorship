@@ -76,3 +76,9 @@ Arrays
 Array Literals 
 const myArray = ['dog','cat','sport']
 
+
+REACT
+Functional Programming 
+- Stateless
+- Focuses on Functions
+- 
